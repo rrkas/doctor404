@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profile.ProfilePhysicalActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <LinearLayout-->
+<!--            android:gravity="center"-->
+<!--            android:paddingVertical="10dp"-->
+<!--            android:paddingHorizontal="10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <co.doctor404.tb.customfonts.MyTextView_Roboto_Bold-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Age"-->
+<!--                android:textSize="18sp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:layout_marginRight="20dp" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/age"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:inputType="number"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Enter age in years"-->
+<!--                />-->
+
+<!--            <co.doctor404.tb.customfonts.MyTextView_Roboto_Bold-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Years"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginLeft="20dp" />-->
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.doctor404.tb.customfonts.MyTextView_Roboto_Bold
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textSize="18sp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="Enter weight in Kg"
+                />
+
+            <co.doctor404.tb.customfonts.MyTextView_Roboto_Bold
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kg"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.doctor404.tb.customfonts.MyTextView_Roboto_Bold
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Height"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp" />
+
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="Enter height in meters"
+                />
+
+            <co.doctor404.tb.customfonts.MyTextView_Roboto_Bold
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="m"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.doctor404.tb.customfonts.MyTextView_Roboto_Bold
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="BMI"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+                <TextView
+                    android:id="@+id/bmi"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="19sp"
+                    android:layout_height="wrap_content"
+                    android:text="Enter above details"
+                    tools:ignore="HardcodedText,NestedWeights" />
+                <TextView
+                    android:id="@+id/remarks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <co.doctor404.tb.customfonts.MyTextView_Roboto_Bold
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kg/m²"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_physical"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>
