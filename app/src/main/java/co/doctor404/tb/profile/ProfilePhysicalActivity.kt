@@ -65,7 +65,7 @@ class ProfilePhysicalActivity : AppCompatActivity() {
                 if (bmi.text.equals("Enter above details")) {
                     bmi.setTextColor(Color.BLACK)
                 } else {
-                    var bval: Double = -1.0
+                    var bval: Double
                     try {
                         bval = bmi.text.toString().toDouble()
                     } catch (e: Exception) {

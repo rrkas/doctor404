@@ -89,16 +89,16 @@
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_weight="1"
-                                                android:text="Step 1:"
+                                                android:text="Step 1"
                                                 android:textColor="#34353d"
                                                 android:textSize="16sp" />
 
 
-                                            <ImageView
-                                                android:layout_width="15dp"
-                                                android:layout_height="15dp"
-                                                android:layout_marginTop="10dp"
-                                                android:src="@drawable/next" />
+<!--                                            <ImageView-->
+<!--                                                android:layout_width="15dp"-->
+<!--                                                android:layout_height="15dp"-->
+<!--                                                android:layout_marginTop="10dp"-->
+<!--                                                android:src="@drawable/next" />-->
                                         </LinearLayout>
 
 
@@ -131,7 +131,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="11.7dp"
-                                android:text="STEPS 1: "
+                                android:text="STEPS 1:"
                                 android:textColor="#34353d"
                                 android:textSize="15sp"
                                 android:textStyle="bold" />
@@ -221,152 +221,152 @@
                                     android:layout_height="1dp"
                                     android:background="#e0d8d8" />
 
-                                <LinearLayout
-                                    android:id="@+id/process"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="horizontal"
-                                    android:padding="11.7dp">
+<!--                                <LinearLayout-->
+<!--                                    android:id="@+id/process"-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:orientation="horizontal"-->
+<!--                                    android:padding="11.7dp">-->
 
-                                    <ImageView
-                                        android:layout_width="35dp"
-                                        android:layout_height="35dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/audio" />
-
-
-                                    <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="15.7dp"
-                                        android:orientation="vertical">
+<!--                                    <ImageView-->
+<!--                                        android:layout_width="35dp"-->
+<!--                                        android:layout_height="35dp"-->
+<!--                                        android:layout_gravity="center"-->
+<!--                                        android:src="@drawable/audio" />-->
 
 
-                                        <LinearLayout
-                                            android:layout_width="match_parent"
-                                            android:layout_height="wrap_content"
-                                            android:layout_marginBottom="4dp"
-                                            android:orientation="horizontal">
-
-                                            <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="1"
-                                                android:text="Spectrum Analysis"
-                                                android:textColor="#34353d"
-                                                android:textSize="16sp" />
+<!--                                    <LinearLayout-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:layout_marginLeft="15.7dp"-->
+<!--                                        android:orientation="vertical">-->
 
 
-                                            <ImageView
-                                                android:layout_width="15dp"
-                                                android:layout_height="15dp"
-                                                android:layout_marginTop="10dp"
-                                                android:src="@drawable/next" />
+<!--                                        <LinearLayout-->
+<!--                                            android:layout_width="match_parent"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:layout_marginBottom="4dp"-->
+<!--                                            android:orientation="horizontal">-->
 
-                                        </LinearLayout>
-
-
-                                        <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="Please wait we are analysis for the result."
-                                            android:textColor="#878787"
-                                            android:textSize="14.7dp" />
-
-                                        <co.doctor404.tb.utils.VisualizerView
-                                            android:id="@+id/visualizer"
-                                            android:layout_width="match_parent"
-                                            android:layout_height="60dp" />
-
-                                    </LinearLayout>
+<!--                                            <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular-->
+<!--                                                android:layout_width="wrap_content"-->
+<!--                                                android:layout_height="wrap_content"-->
+<!--                                                android:layout_weight="1"-->
+<!--                                                android:text="Spectrum Analysis"-->
+<!--                                                android:textColor="#34353d"-->
+<!--                                                android:textSize="16sp" />-->
 
 
-                                </LinearLayout>
+<!--                                            <ImageView-->
+<!--                                                android:layout_width="15dp"-->
+<!--                                                android:layout_height="15dp"-->
+<!--                                                android:layout_marginTop="10dp"-->
+<!--                                                android:src="@drawable/next" />-->
+
+<!--                                        </LinearLayout>-->
+
+
+<!--                                        <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:text="Please wait we are analysis for the result."-->
+<!--                                            android:textColor="#878787"-->
+<!--                                            android:textSize="14.7dp" />-->
+
+<!--                                        <co.doctor404.tb.utils.VisualizerView-->
+<!--                                            android:id="@+id/visualizer"-->
+<!--                                            android:layout_width="match_parent"-->
+<!--                                            android:layout_height="60dp" />-->
+
+<!--                                    </LinearLayout>-->
+
+
+<!--                                </LinearLayout>-->
 
 
                             </LinearLayout>
 
-                            <co.doctor404.tb.customfonts.MyTextView_Roboto_Medium
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="11.7dp"
-                                android:text="Spectrum Visualizer Advanced"
-                                android:textColor="#34353d"
-                                android:textSize="15sp"
-                                android:textStyle="bold" />
+<!--                            <co.doctor404.tb.customfonts.MyTextView_Roboto_Medium-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_margin="11.7dp"-->
+<!--                                android:text="Spectrum Visualizer Advanced"-->
+<!--                                android:textColor="#34353d"-->
+<!--                                android:textSize="15sp"-->
+<!--                                android:textStyle="bold" />-->
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="11.7dp"
-                                android:layout_marginRight="11.7dp"
-                                android:layout_marginBottom="6dp"
-                                android:background="@drawable/pich_rect"
-                                android:orientation="vertical">
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginLeft="11.7dp"-->
+<!--                                android:layout_marginRight="11.7dp"-->
+<!--                                android:layout_marginBottom="6dp"-->
+<!--                                android:background="@drawable/pich_rect"-->
+<!--                                android:orientation="vertical">-->
 
-                                <LinearLayout
-                                    android:id="@+id/spectrum_visualizer"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="horizontal"
-                                    android:padding="11.7dp">
+<!--                                <LinearLayout-->
+<!--                                    android:id="@+id/spectrum_visualizer"-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:orientation="horizontal"-->
+<!--                                    android:padding="11.7dp">-->
 
-                                    <ImageView
-                                        android:layout_width="35dp"
-                                        android:layout_height="35dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/audio" />
-
-
-                                    <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="15.7dp"
-                                        android:layout_marginBottom="4dp"
-                                        android:orientation="vertical">
-
-                                        <LinearLayout
-                                            android:layout_width="match_parent"
-                                            android:layout_height="wrap_content"
-                                            android:orientation="horizontal">
+<!--                                    <ImageView-->
+<!--                                        android:layout_width="35dp"-->
+<!--                                        android:layout_height="35dp"-->
+<!--                                        android:layout_gravity="center"-->
+<!--                                        android:src="@drawable/audio" />-->
 
 
-                                            <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="1"
-                                                android:text="Open Audio Spectrum Visualiser"
-                                                android:textColor="#34353d"
-                                                android:textSize="16sp" />
+<!--                                    <LinearLayout-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:layout_marginLeft="15.7dp"-->
+<!--                                        android:layout_marginBottom="4dp"-->
+<!--                                        android:orientation="vertical">-->
+
+<!--                                        <LinearLayout-->
+<!--                                            android:layout_width="match_parent"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:orientation="horizontal">-->
 
 
-                                            <ImageView
-                                                android:layout_width="15dp"
-                                                android:layout_height="15dp"
-                                                android:layout_marginTop="10dp"
-                                                android:src="@drawable/next" />
-                                        </LinearLayout>
+<!--                                            <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular-->
+<!--                                                android:layout_width="wrap_content"-->
+<!--                                                android:layout_height="wrap_content"-->
+<!--                                                android:layout_weight="1"-->
+<!--                                                android:text="Open Audio Spectrum Visualiser"-->
+<!--                                                android:textColor="#34353d"-->
+<!--                                                android:textSize="16sp" />-->
 
 
-                                        <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="All the audio processing happening in the server side. For demo purpose to see how Spectrum Analyser looks like, click this."
-                                            android:textColor="#878787"
-                                            android:textSize="14.7dp" />
+<!--                                            <ImageView-->
+<!--                                                android:layout_width="15dp"-->
+<!--                                                android:layout_height="15dp"-->
+<!--                                                android:layout_marginTop="10dp"-->
+<!--                                                android:src="@drawable/next" />-->
+<!--                                        </LinearLayout>-->
 
 
-                                    </LinearLayout>
+<!--                                        <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:text="All the audio processing happening in the server side. For demo purpose to see how Spectrum Analyser looks like, click this."-->
+<!--                                            android:textColor="#878787"-->
+<!--                                            android:textSize="14.7dp" />-->
 
 
-                                </LinearLayout>
+<!--                                    </LinearLayout>-->
 
-                                <View
-                                    android:layout_width="match_parent"
-                                    android:layout_height="1dp"
-                                    android:background="#e0d8d8" />
 
-                            </LinearLayout>
+<!--                                </LinearLayout>-->
+
+<!--                                <View-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="1dp"-->
+<!--                                    android:background="#e0d8d8" />-->
+
+<!--                            </LinearLayout>-->
 
                             <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular
                                 android:id="@+id/report_text"

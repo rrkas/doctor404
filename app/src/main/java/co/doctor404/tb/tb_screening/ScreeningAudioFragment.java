@@ -60,7 +60,7 @@ public class ScreeningAudioFragment extends Fragment {
         // Please note the third parameter should be false, otherwise a java.lang.IllegalStateException maybe thrown.
         final View retView = inflater.inflate(R.layout.fragment_screening_audio, container, false);
 
-        visualizerView = (VisualizerView) retView.findViewById(R.id.visualizer);
+//        visualizerView = (VisualizerView) retView.findViewById(R.id.visualizer);
 
         final AudioWaveView wave = retView.findViewById(R.id.wave);
         OnProgressListener listener = new OnProgressListener() {
@@ -141,22 +141,22 @@ public class ScreeningAudioFragment extends Fragment {
             }
         });
 
-        retView.findViewById(R.id.spectrum_visualizer).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Context ctx = getActivity();
-                try {
-                    if (ctx != null) {
-                        Intent i = ctx.getPackageManager()
-                                .getLaunchIntentForPackage("github.bewantbe.audio_analyzer_for_android");
-                        ctx.startActivity(i);
-                    }
-                } catch (Exception e) {
-                    Log.d("VISUALIZER", "onClick: " + e.getMessage());
-                    Toast.makeText(retView.getContext(), "Failed to launch!", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+//        retView.findViewById(R.id.spectrum_visualizer).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Context ctx = getActivity();
+//                try {
+//                    if (ctx != null) {
+//                        Intent i = ctx.getPackageManager()
+//                                .getLaunchIntentForPackage("github.bewantbe.audio_analyzer_for_android");
+//                        ctx.startActivity(i);
+//                    }
+//                } catch (Exception e) {
+//                    Log.d("VISUALIZER", "onClick: " + e.getMessage());
+//                    Toast.makeText(retView.getContext(), "Failed to launch!", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
 
         return retView;
     }

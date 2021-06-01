@@ -22,12 +22,12 @@ public class MonitorFragment extends Fragment {
         // Please note the third parameter should be false, otherwise a java.lang.IllegalStateException maybe thrown.
         View retView = inflater.inflate(R.layout.fragment_monitoring, container, false);
 
-        retView.findViewById(R.id.update).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendUpdate();
-            }
-        });
+//        retView.findViewById(R.id.update).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                sendUpdate();
+//            }
+//        });
 //        retView.findViewById(R.id.send_update).setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {

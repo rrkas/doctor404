@@ -258,62 +258,62 @@
                                     android:layout_height="1dp"
                                     android:background="#e0d8d8" />
 
-                                <LinearLayout
-                                    android:id="@+id/update"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="horizontal"
-                                    android:padding="11.7dp">
+<!--                                <LinearLayout-->
+<!--                                    android:id="@+id/update"-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:orientation="horizontal"-->
+<!--                                    android:padding="11.7dp">-->
 
-                                    <ImageView
-                                        android:layout_width="35dp"
-                                        android:layout_height="35dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/lungs" />
-
-
-                                    <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="15.7dp"
-                                        android:layout_marginBottom="4dp"
-                                        android:orientation="vertical">
-
-                                        <LinearLayout
-                                            android:layout_width="match_parent"
-                                            android:layout_height="wrap_content"
-                                            android:orientation="horizontal">
+<!--                                    <ImageView-->
+<!--                                        android:layout_width="35dp"-->
+<!--                                        android:layout_height="35dp"-->
+<!--                                        android:layout_gravity="center"-->
+<!--                                        android:src="@drawable/lungs" />-->
 
 
-                                            <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_weight="1"
-                                                android:text="Send Voice Bio-Marker Reports to Doctor."
-                                                android:textColor="#34353d"
-                                                android:textSize="16sp" />
+<!--                                    <LinearLayout-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:layout_marginLeft="15.7dp"-->
+<!--                                        android:layout_marginBottom="4dp"-->
+<!--                                        android:orientation="vertical">-->
+
+<!--                                        <LinearLayout-->
+<!--                                            android:layout_width="match_parent"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:orientation="horizontal">-->
 
 
-                                            <ImageView
-                                                android:layout_width="15dp"
-                                                android:layout_height="15dp"
-                                                android:layout_marginTop="10dp"
-                                                android:src="@drawable/next" />
-                                        </LinearLayout>
+<!--                                            <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular-->
+<!--                                                android:layout_width="wrap_content"-->
+<!--                                                android:layout_height="wrap_content"-->
+<!--                                                android:layout_weight="1"-->
+<!--                                                android:text="Send Voice Bio-Marker Reports to Doctor."-->
+<!--                                                android:textColor="#34353d"-->
+<!--                                                android:textSize="16sp" />-->
 
 
-                                        <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="You are currently treated for tuberculosis by Dr. William Morty. Click here to send the voice bio-marker reports to the doctor."
-                                            android:textColor="#878787"
-                                            android:textSize="14.7dp" />
+<!--                                            <ImageView-->
+<!--                                                android:layout_width="15dp"-->
+<!--                                                android:layout_height="15dp"-->
+<!--                                                android:layout_marginTop="10dp"-->
+<!--                                                android:src="@drawable/next" />-->
+<!--                                        </LinearLayout>-->
 
 
-                                    </LinearLayout>
+<!--                                        <co.doctor404.tb.customfonts.TextViewSFProDisplayRegular-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:text="You are currently treated for tuberculosis by Dr. William Morty. Click here to send the voice bio-marker reports to the doctor."-->
+<!--                                            android:textColor="#878787"-->
+<!--                                            android:textSize="14.7dp" />-->
 
 
-                                </LinearLayout>
+<!--                                    </LinearLayout>-->
+
+
+<!--                                </LinearLayout>-->
 
                                 <View
                                     android:layout_width="match_parent"
